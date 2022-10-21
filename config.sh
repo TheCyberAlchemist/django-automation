@@ -14,7 +14,7 @@ requirements_file="./requirements.txt"
 manage_file="./manage.py"
 
 
-if [ -f"$settings_file" ]; then
+if [ -e "$settings_file" ]; then
 	print_success "Settings file exists"
 else
 	print_error "Settings file does not exist"
