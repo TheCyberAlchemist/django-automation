@@ -1,5 +1,7 @@
 : '
 
+* Always be in the project Directory *
+
 project_dir := "path/to/project"
 project_name := "project_name"
 git_url := "https://path/to/git/repo.git"
