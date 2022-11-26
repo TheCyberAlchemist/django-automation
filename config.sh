@@ -4,7 +4,9 @@
 
 project_dir := "path/to/project"
 project_name := "project_name"
-git_url := "https://path/to/git/repo.git"
+git_url := "path/to/git/repo.git" 
+	Not " *https://* path/to/git/repo.git" 
+	Do not use https or http in the git_url
 python_command := "python3" or "python" or "python3.9" etc.
 pip_command := "pip3" or "pip" or "pip3.9" etc.
 

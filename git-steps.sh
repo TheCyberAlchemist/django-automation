@@ -10,7 +10,7 @@ then
 	print_question "Enter the token : "
 	read -r token 
 	print_statement "Pulling from the remote repository."
-	git pull $username:$token@$git_url
+	git pull https://$username:$token@$git_url
 else
 	print_error "Not pulling from origin."
 fi
