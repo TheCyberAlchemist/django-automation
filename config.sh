@@ -20,10 +20,11 @@ server_url="127.0.0.1:8000"
 #manage_file="$project_dir/manage.py"
 
 settings_file="./$project_name/settings.py"
+requirements_file="./requirements.txt"
 manage_file="./manage.py"
 
 
-if [ -f"$settings_file" ]; then
+if [ -e "$settings_file" ]; then
 	print_success "Settings file exists"
 else
 	print_error "Settings file does not exist"

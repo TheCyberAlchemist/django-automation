@@ -1,10 +1,10 @@
 echo -e "\n"
-print_statement "Stashing any changes."
-git stash
-print_question "Do you want to pull ? [y/n] "
+print_question "Do you want to pull from the remote repo ? [y/n] "
 read -r answer
 if [[ $answer =~ ^[Yy]$ ]]
 then
+	git stash
+	print_statement "Stashing any changes."
 	print_question "Enter the username : "
 	read -r username
 	print_question "Enter the token : "
