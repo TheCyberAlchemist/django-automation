@@ -4,6 +4,8 @@ project_dir := "path/to/project"
 project_name := "project_name"
 git_url := "https://path/to/git/repo.git"
 python_command := "python3" or "python" or "python3.9" etc.
+pip_command := "pip3" or "pip" or "pip3.9" etc.
+
 server_url := "" it is the url of the server where the project will be deployed
 
 '
@@ -12,6 +14,7 @@ project_dir=''
 project_name=""
 git_url=""
 python_command="python3"
+pip_command="pip3"
 
 server_url="127.0.0.1:8000"
 
