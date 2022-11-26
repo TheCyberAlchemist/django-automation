@@ -2,8 +2,6 @@
 
 This project is the automation of my Django deployment workflow.
 
-To start the workflow run *master.sh*. This file imports all the other files and runs the files in the correct order.
-
 # 🗒️ Steps to Get Started
 - Clone this repository into your server.
 - Change the required config.sh variables. ( Detailed explaination [here 🔗](https://github.com/TheCyberAlchemist/django-automation/edit/main/README.md#-variables-in-configsh))
