@@ -1,4 +1,4 @@
-print_statement "ollecting static files.\n"
+print_statement "Collecting static files.\n"
 "$python_command" "$manage_file" collectstatic --noinput > /dev/null 2>&1
 
 if [ -e "$requirements_file" ]; then
