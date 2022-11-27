@@ -4,7 +4,7 @@ This project is the automation of my Django deployment workflow.
 
 # 🗒️ Steps to Get Started
 - Clone this repository into your server.
-- Change the required config.sh variables. ( Detailed explaination [here 🔗](https://github.com/TheCyberAlchemist/django-automation/edit/main/README.md#-variables-in-configsh))
+- Change the required config.sh variables. ( Detailed explaination [here 🔗](https://github.com/TheCyberAlchemist/django-automation#-variables-in-configsh))
 - Go to the Django Project Directory.
 - Execute *master.sh*.
 - Answer the prompts.
