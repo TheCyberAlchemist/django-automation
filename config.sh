@@ -34,6 +34,7 @@ manage_file="./manage.py"
 if [ -e "$settings_file" ]; then
 	print_success "Settings file exists"
 else
-	print_error "Settings file does not exist"
+	print_error "Settings file does not exist in current Directory."
+	print_statement "Your current Path must be the Project Direcotry" 2
 	exit 1
 fi
